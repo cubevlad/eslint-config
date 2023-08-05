@@ -5,22 +5,18 @@
 1. run command
 
 ```sh
-# or you can use npm/pnpm
-yarn add -D @cubevlad/eslint-config
+# with npm
+npm install @frknnice/eslint-config
+# with yarn
+yarn add @frknnice/eslint-config
 ```
 
-2. install peer dependencies as devDependencies
-
-```sh
-yarn dlx install-peerdeps --dev @cubevlad/eslint-config
-```
-
-3. create a .eslintrc file inside root dir and add this:
+2. create a .eslintrc file inside root dir and add this:
 
 ```js
 {
     'extends': [
-        '@cubevlad/eslint-config'
+        '@frknnice/eslint-config'
     ]
 }
 ```

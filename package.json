@@ -1,7 +1,7 @@
 {
   "private": false,
-  "name": "@cubevlad/eslint-config",
-  "version": "1.0.0",
+  "name": "@frknnice/eslint-config",
+  "version": "1.0.1",
   "description": "ESLint config",
   "homepage": "https://github.com/cubevlad/eslint-config#readme",
   "main": "index.js",
@@ -34,6 +34,6 @@
     "config"
   ],
   "author": "Vladislav Kubasov",
-  "email": "kubasovvv07@gmail.com",
+  "email": "vladislauskubasov@yandex.ru",
   "license": "ISC"
 }
