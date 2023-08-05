@@ -1,8 +1,4 @@
 module.exports = {
-  meta: {
-    name: '@cubevlad/eslint-config',
-    version: '1.0.0',
-  },
   env: {
     browser: true,
     es2022: true,
