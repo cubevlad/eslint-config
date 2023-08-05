@@ -25,6 +25,7 @@ module.exports = {
     "prettier",
     "import",
     "jsx-expressions",
+    "react-hooks",
   ],
   extends: [
     "plugin:react/recommended",
