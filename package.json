@@ -1,6 +1,6 @@
 {
   "private": false,
-  "name": "@cube_vlad/eslint-config",
+  "name": "@cubevlad/eslint-config",
   "version": "1.0.0",
   "description": "ESLint config",
   "homepage": "https://github.com/cubevlad/eslint-config.git",
