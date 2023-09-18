@@ -117,7 +117,7 @@ module.exports = {
     '@typescript-eslint/require-array-sort-compare': 'warn',
     '@typescript-eslint/restrict-plus-operands': [
       'error',
-      { checkCompoundAssignments: true, allowAny: true },
+      { skipCompoundAssignments: true, allowAny: true },
     ],
     '@typescript-eslint/sort-type-union-intersection-members': 'warn',
     '@typescript-eslint/switch-exhaustiveness-check': 'warn',
