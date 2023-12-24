@@ -13,9 +13,8 @@ module.exports = {
       jsx: true,
     },
     ecmaVersion: 'latest',
-    sourceType: 'module',
   },
-  plugins: ['react', '@typescript-eslint', 'prettier', 'import', 'jsx-expressions', 'react-hooks'],
+  plugins: ['react', '@typescript-eslint', 'prettier', 'import', 'jsx-expressions', 'react-hooks', 'jsx-a11y'],
   extends: [
     'plugin:react/recommended',
     'airbnb',
@@ -23,6 +22,7 @@ module.exports = {
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:react-hooks/recommended',
+    'plugin:jsx-a11y/recommended',
   ],
   rules: {
     'import/extensions': [
@@ -66,7 +66,7 @@ module.exports = {
     'jsx-a11y/label-has-associated-control': 'off',
     'default-case': 'off',
     'no-param-reassign': 'off',
-    camelcase: 'off',
+    'camelcase': 'off',
     'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': 'error',
@@ -105,7 +105,7 @@ module.exports = {
         'ts-ignore': true,
         'ts-nocheck': true,
         'ts-check': false,
-        minimumDescriptionLength: 8,
+        'minimumDescriptionLength': 8,
       },
     ],
     '@typescript-eslint/no-for-in-array': 'error',
@@ -145,7 +145,7 @@ module.exports = {
     '@typescript-eslint/no-throw-literal': 'error',
     'no-return-await': 'off',
     '@typescript-eslint/return-await': 'warn',
-    curly: 'error',
+    'curly': 'error',
     'no-restricted-syntax': [
       'error',
       {
@@ -153,7 +153,7 @@ module.exports = {
         message: 'Switch cases without brackets are disallowed.',
       },
     ],
-    radix: 'error',
+    'radix': 'error',
     'react/jsx-handler-names': 'warn',
     'react/no-unknown-property': ['error', { ignore: ['css'] }],
     'react/jsx-no-constructed-context-values': 'error',
@@ -196,6 +196,7 @@ module.exports = {
     'import/resolver': {
       typescript: {
         alwaysTryTypes: true,
+        alias: true
       },
     },
   },
