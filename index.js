@@ -119,7 +119,7 @@ module.exports = {
       'error',
       { skipCompoundAssignments: true, allowAny: true },
     ],
-    '@typescript-eslint/sort-type-union-intersection-members': [
+    '@typescript-eslint/sort-type-constituents': [
       'warn',
       {
         heckIntersections: true,
