@@ -119,26 +119,26 @@ module.exports = {
       'error',
       { skipCompoundAssignments: true, allowAny: true },
     ],
-    '@typescript-eslint/sort-type-constituents': [
-      'warn',
+    "@typescript-eslint/sort-type-constituents": [
+      "warn",
       {
-        heckIntersections: true,
-        checkUnions: true,
-        groupOrder: [
-          'named',
-          'keyword',
-          'operator',
-          'literal',
-          'function',
-          'import',
-          'conditional',
-          'object',
-          'tuple',
-          'intersection',
-          'union',
-          'nullish',
-        ],
-      },
+        "checkIntersections": true,
+        "checkUnions": true,
+        "groupOrder": [
+          "named",
+          "keyword",
+          "operator",
+          "literal",
+          "function",
+          "import",
+          "conditional",
+          "object",
+          "tuple",
+          "intersection",
+          "union",
+          "nullish"
+        ]
+      }
     ],
     '@typescript-eslint/switch-exhaustiveness-check': 'warn',
     '@typescript-eslint/no-implied-eval': 'error',

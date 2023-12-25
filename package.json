@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@frknnice/eslint-config",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "ESLint config",
   "homepage": "https://github.com/cubevlad/eslint-config#readme",
   "main": "index.js",
