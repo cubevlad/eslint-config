@@ -22,7 +22,6 @@ module.exports = {
     'jsx-expressions',
     'react-hooks',
     'jsx-a11y',
-    '@tanstack/query'
   ],
   extends: [
     'plugin:react/recommended',
@@ -32,12 +31,8 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:react-hooks/recommended',
     'plugin:jsx-a11y/recommended',
-    "plugin:@tanstack/eslint-plugin-query/recommended"
   ],
   rules: {
-    "@tanstack/query/exhaustive-deps": "error",
-    "@tanstack/query/prefer-query-object-syntax": "error",
-    "@tanstack/query/stable-query-client": "error",
     'import/extensions': [
       'error',
       'ignorePackages',
