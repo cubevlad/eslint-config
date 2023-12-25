@@ -7,7 +7,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cubevlad/eslint-config.git"
+    "url": "git+https://github.com/cubevlad/eslint-config.git"
   },
   "publishConfig": {
     "access": "public"
