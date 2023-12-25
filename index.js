@@ -38,6 +38,8 @@ module.exports = {
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
     'import/no-unresolved': 'error',
     'import/prefer-default-export': 'off',
+    'arrow-parens': ['error', 'always'],
+    'arrow-spacing': ['error', { before: true, after: true }],
     'import/order': [
       'error',
       {
