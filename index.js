@@ -14,7 +14,16 @@ module.exports = {
     },
     ecmaVersion: 'latest',
   },
-  plugins: ['react', '@typescript-eslint', 'prettier', 'import', 'jsx-expressions', 'react-hooks', 'jsx-a11y'],
+  plugins: [
+    'react',
+    '@typescript-eslint',
+    'prettier',
+    'import',
+    'jsx-expressions',
+    'react-hooks',
+    'jsx-a11y',
+    '@tanstack/query'
+  ],
   extends: [
     'plugin:react/recommended',
     'airbnb',
@@ -23,8 +32,12 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:react-hooks/recommended',
     'plugin:jsx-a11y/recommended',
+    "plugin:@tanstack/eslint-plugin-query/recommended"
   ],
   rules: {
+    "@tanstack/query/exhaustive-deps": "error",
+    "@tanstack/query/prefer-query-object-syntax": "error",
+    "@tanstack/query/stable-query-client": "error",
     'import/extensions': [
       'error',
       'ignorePackages',
